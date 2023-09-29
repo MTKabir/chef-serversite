@@ -1,0 +1,22 @@
+{
+  "name": "chef-serversite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTKabir/chef-serversite.git"
+  },
+  "author": "kabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTKabir/chef-serversite/issues"
+  },
+  "homepage": "https://github.com/MTKabir/chef-serversite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
