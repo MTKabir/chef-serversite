@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "chefName": "Chef John Smith",
+      "yearsOfExperience": 15,
+      "numberOfRecipes": 8,
+      "likes": 8000,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/crazy-chef-with-frying-pan-gm1365253730-436176041?phrase=crazy+chef"
+    },
+    {
+      "id": 2,
+      "chefName": "Chef Sarah Lee",
+      "yearsOfExperience": 12,
+      "numberOfRecipes": 7,
+      "likes": 7000,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/chief-cook-funny-man-with-a-caricature-face-isolated-over-white-background-cartoon-gm1425978976-470301329?phrase=crazy+chef"
+    },
+    {
+      "id": 3,
+      "chefName": "Chef David Johnson",
+      "yearsOfExperience": 20,
+      "numberOfRecipes": 6,
+      "likes": 10000,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/young-man-chef-juggling-lettuce-heads-gm108225739-8584501?phrase=crazy+chef"
+    },
+    {
+      "id": 4,
+      "chefName": "Chef Emily Chen",
+      "yearsOfExperience": 8,
+      "numberOfRecipes": 9,
+      "likes": 4500,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/funny-chef-with-frying-pan-and-spatula-looking-up-gm1365253731-436176038?phrase=crazy+chef"
+    },
+    {
+      "id": 5,
+      "chefName": "Chef Michael Brown",
+      "yearsOfExperience": 10,
+      "numberOfRecipes": 5,
+      "likes": 6200,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/geweldig-idee-gm1179598519-330138742?phrase=crazy+chef"
+    },
+    {
+      "id": 6,
+      "chefName": "Chef Anna Kim",
+      "yearsOfExperience": 14,
+      "numberOfRecipes": 8,
+      "likes": 7500,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/quick-handed-chef-gm505839327-44768718?phrase=crazy+chef"
+    },
+    {
+      "id": 7,
+      "chefName": "Chef William Wu",
+      "yearsOfExperience": 18,
+      "numberOfRecipes": 7,
+      "likes": 9000,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/boze-chef-bakerman-raising-rolling-pin-dreigend-studio-shot-gm1201217415-344395603?phrase=crazy+chef"
+    },
+    {
+      "id": 8,
+      "chefName": "Chef Olivia Taylor",
+      "yearsOfExperience": 9,
+      "numberOfRecipes": 6,
+      "likes": 5200,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/crazy-chef-gm152965135-16110600?phrase=crazy+chef"
+    },
+    {
+      "id": 9,
+      "chefName": "Chef Robert Rodriguez",
+      "yearsOfExperience": 22,
+      "numberOfRecipes": 9,
+      "likes": 12000,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/chief-gm174983760-23341215?phrase=crazy+chef"
+    },
+    {
+      "id": 10,
+      "chefName": "Chef Jessica White",
+      "yearsOfExperience": 11,
+      "numberOfRecipes": 5,
+      "likes": 6800,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/home-cook-with-pot-on-head-asking-for-help-gm490022300-74992225?phrase=crazy+chef"
+    },
+    {
+      "id": 11,
+      "chefName": "Chef Daniel Liu",
+      "yearsOfExperience": 16,
+      "numberOfRecipes": 7,
+      "likes": 8200,
+      "chefPicture": "https://www.istockphoto.com/nl/foto/butcher-cutting-pigs-head-with-rusty-cleaver-moustache-and-beard-gm155389430-19591571?phrase=crazy+chef"
+    }
+  ]
+  
