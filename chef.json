@@ -1,91 +1,519 @@
 [
-    {
-      "id": 1,
-      "chefName": "Chef John Smith",
-      "yearsOfExperience": 15,
-      "numberOfRecipes": 8,
-      "likes": 8000,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG"
-    },
-    {
-      "id": 2,
-      "chefName": "Chef Sarah Lee",
-      "yearsOfExperience": 12,
-      "numberOfRecipes": 7,
-      "likes": 7000,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chef_pr%C3%A9parant_une_truffe.jpg"
-    },
-    {
-      "id": 3,
-      "chefName": "Chef David Johnson",
-      "yearsOfExperience": 20,
-      "numberOfRecipes": 6,
-      "likes": 10000,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chef_Tom_Wandera_at_work.jpg"
-    },
-    {
-      "id": 4,
-      "chefName": "Chef Emily Chen",
-      "yearsOfExperience": 8,
-      "numberOfRecipes": 9,
-      "likes": 4500,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/0/02/Oxford_-_Chef_School_-_0405.jpg"
-    },
-    {
-      "id": 5,
-      "chefName": "Chef Michael Brown",
-      "yearsOfExperience": 10,
-      "numberOfRecipes": 5,
-      "likes": 6200,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chefs.jpg"
-    },
-    {
-      "id": 6,
-      "chefName": "Chef Anna Kim",
-      "yearsOfExperience": 14,
-      "numberOfRecipes": 8,
-      "likes": 7500,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Chef_preparing_naan_to_be_baked_in_a_tandoori.jpeg"
-    },
-    {
-      "id": 7,
-      "chefName": "Chef William Wu",
-      "yearsOfExperience": 18,
-      "numberOfRecipes": 7,
-      "likes": 9000,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG"
-    },
-    {
-      "id": 8,
-      "chefName": "Chef Olivia Taylor",
-      "yearsOfExperience": 9,
-      "numberOfRecipes": 6,
-      "likes": 5200,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG"
-    },
-    {
-      "id": 9,
-      "chefName": "Chef Robert Rodriguez",
-      "yearsOfExperience": 22,
-      "numberOfRecipes": 9,
-      "likes": 12000,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG"
-    },
-    {
-      "id": 10,
-      "chefName": "Chef Jessica White",
-      "yearsOfExperience": 11,
-      "numberOfRecipes": 5,
-      "likes": 6800,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG"
-    },
-    {
-      "id": 11,
-      "chefName": "Chef Daniel Liu",
-      "yearsOfExperience": 16,
-      "numberOfRecipes": 7,
-      "likes": 8200,
-      "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "chefName": "Chef John Smith",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 8,
+    "likes": 8000,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "bio": "Chef John Smith is a seasoned culinary expert with 15 years of experience in the kitchen. He is known for his creative recipes that have garnered 8000 likes from food enthusiasts.",
+    "recipes": [
+      {
+        "recipeName": "Creamy Mushroom Risotto",
+        "ingredients": [
+          "1 cup Arborio rice",
+          "2 cups chicken or vegetable broth",
+          "1 cup sliced mushrooms",
+          "1/2 cup grated Parmesan cheese",
+          "1/4 cup white wine"
+        ],
+        "cookingMethod": "Sauté mushrooms, add rice, simmer with wine, gradually add broth, stir in cheese.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Garlic Butter Shrimp Scampi",
+        "ingredients": [
+          "1 pound large shrimp, peeled and deveined",
+          "4 cloves garlic, minced",
+          "1/4 cup white wine",
+          "2 tablespoons butter",
+          "2 tablespoons fresh parsley, chopped"
+        ],
+        "cookingMethod": "Sauté garlic in butter, add shrimp, cook with wine, sprinkle with parsley.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Lemon Herb Roasted Chicken",
+        "ingredients": [
+          "1 whole chicken (about 4 pounds)",
+          "2 lemons, sliced",
+          "4 cloves garlic, minced",
+          "2 tablespoons olive oil",
+          "2 teaspoons dried herbs (thyme, rosemary, oregano)"
+        ],
+        "cookingMethod": "Rub chicken with olive oil, garlic, and herbs, place lemon slices on top, roast in the oven.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "chefName": "Chef Sarah Lee",
+    "yearsOfExperience": 12,
+    "numberOfRecipes": 7,
+    "likes": 7000,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chef_pr%C3%A9parant_une_truffe.jpg",
+    "bio": "Chef Sarah Lee brings 12 years of culinary experience to the table. Her unique recipes have captured the hearts of many, accumulating 7000 likes.",
+    "recipes": [
+      {
+        "recipeName": "Spicy Thai Noodle Soup",
+        "ingredients": [
+          "8 oz rice noodles",
+          "2 cups coconut milk",
+          "1 red bell pepper, sliced",
+          "1 tablespoon red curry paste",
+          "1 lime, juiced"
+        ],
+        "cookingMethod": "Simmer coconut milk with curry paste, add noodles and bell pepper, finish with lime juice.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Honey Sesame Chicken",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts",
+          "2 tablespoons honey",
+          "2 tablespoons soy sauce",
+          "1 tablespoon sesame seeds",
+          "1 clove garlic, minced"
+        ],
+        "cookingMethod": "Marinate chicken in honey, soy sauce, and garlic. Grill, then sprinkle with sesame seeds.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Mango Salsa Salmon",
+        "ingredients": [
+          "4 salmon fillets",
+          "1 cup diced mango",
+          "1/4 cup red onion, finely chopped",
+          "2 tablespoons fresh cilantro, chopped",
+          "1 lime, juiced"
+        ],
+        "cookingMethod": "Mix mango, red onion, cilantro, and lime juice. Grill salmon and top with mango salsa.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "chefName": "Chef David Johnson",
+    "yearsOfExperience": 20,
+    "numberOfRecipes": 6,
+    "likes": 10000,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chef_Tom_Wandera_at_work.jpg",
+    "bio": "With two decades of experience, Chef David Johnson is a culinary maestro. His recipes have earned him a remarkable 10,000 likes.",
+    "recipes": [
+      {
+        "recipeName": "Classic Beef Wellington",
+        "ingredients": [
+          "2 beef fillets",
+          "Puff pastry",
+          "Mushroom duxelles",
+          "Prosciutto slices",
+          "Egg wash"
+        ],
+        "cookingMethod": "Wrap beef fillets in mushroom duxelles and prosciutto, encase in puff pastry, bake to perfection.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Lobster Bisque",
+        "ingredients": [
+          "2 lobsters, cooked and shelled",
+          "2 cups chicken broth",
+          "1 cup heavy cream",
+          "1/4 cup sherry wine",
+          "Butter and onions"
+        ],
+        "cookingMethod": "Sauté onions in butter, add lobster meat, broth, cream, and sherry. Simmer and blend to create bisque.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "Ladyfingers",
+          "Mascarpone cheese",
+          "Egg yolks",
+          "Espresso",
+          "Cocoa powder"
+        ],
+        "cookingMethod": "Layer soaked ladyfingers with mascarpone mixture, repeat. Dust with cocoa powder and chill.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "chefName": "Chef Emily Chen",
+    "yearsOfExperience": 8,
+    "numberOfRecipes": 9,
+    "likes": 4500,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/0/02/Oxford_-_Chef_School_-_0405.jpg",
+    "bio": "Chef Emily Chen, with 8 years of experience, is known for her diverse repertoire of 9 recipes, which have earned her 4500 likes.",
+    "recipes": [
+      {
+        "recipeName": "Crispy Orange Chicken",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts",
+          "1 cup orange sauce",
+          "Cornstarch",
+          "Vegetable oil",
+          "Green onions"
+        ],
+        "cookingMethod": "Coat chicken in cornstarch, fry until crispy, toss in orange sauce, garnish with green onions.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Caprese Salad",
+        "ingredients": [
+          "Tomatoes",
+          "Fresh mozzarella",
+          "Fresh basil leaves",
+          "Balsamic glaze",
+          "Olive oil"
+        ],
+        "cookingMethod": "Layer tomatoes, mozzarella, and basil. Drizzle with balsamic glaze and olive oil.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Mango Tango Smoothie",
+        "ingredients": [
+          "1 ripe mango",
+          "Greek yogurt",
+          "Honey",
+          "Ice cubes",
+          "Lime juice"
+        ],
+        "cookingMethod": "Blend mango, yogurt, honey, ice, and lime juice until smooth and creamy.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "chefName": "Chef Michael Brown",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 5,
+    "likes": 6200,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chefs.jpg",
+    "bio": "Chef Michael Brown, with a decade of culinary experience, has 5 delectable recipes loved by many, amassing 6200 likes.",
+    "recipes": [
+      {
+        "recipeName": "BBQ Pulled Pork Sandwiches",
+        "ingredients": [
+          "Pork shoulder roast",
+          "BBQ sauce",
+          "Hamburger buns",
+          "Coleslaw",
+          "Pickles"
+        ],
+        "cookingMethod": "Slow-cook pork, shred, mix with BBQ sauce, serve on buns with coleslaw and pickles.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Grilled Vegetable Platter",
+        "ingredients": [
+          "Assorted vegetables (zucchini, bell peppers, mushrooms)",
+          "Olive oil",
+          "Balsamic glaze",
+          "Fresh herbs",
+          "Salt and pepper"
+        ],
+        "cookingMethod": "Brush vegetables with olive oil, grill, drizzle with balsamic glaze, sprinkle with herbs.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Chocolate Chip Cookies",
+        "ingredients": [
+          "Butter",
+          "Sugar",
+          "Brown sugar",
+          "Eggs",
+          "Chocolate chips"
+        ],
+        "cookingMethod": "Cream butter and sugars, add eggs, mix in flour, fold in chocolate chips, bake until golden.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chefName": "Chef Anna Kim",
+    "yearsOfExperience": 14,
+    "numberOfRecipes": 8,
+    "likes": 7500,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Chef_preparing_naan_to_be_baked_in_a_tandoori.jpeg",
+    "bio": "Chef Anna Kim, with 14 years in the kitchen, is known for her expertise in creating 8 delightful recipes, appreciated by 7500 food enthusiasts.",
+    "recipes": [
+      {
+        "recipeName": "Chicken Tikka Masala",
+        "ingredients": [
+          "Chicken breast",
+          "Yogurt",
+          "Tomato sauce",
+          "Spices (garam masala, turmeric)",
+          "Basmati rice"
+        ],
+        "cookingMethod": "Marinate chicken in yogurt and spices, grill, simmer in tomato sauce, serve with rice.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Vegetable Spring Rolls",
+        "ingredients": [
+          "Spring roll wrappers",
+          "Assorted vegetables (carrots, cabbage, bell peppers)",
+          "Soy sauce",
+          "Sesame oil",
+          "Sweet chili sauce"
+        ],
+        "cookingMethod": "Fill wrappers with julienned vegetables, roll, and fry until crispy. Serve with dipping sauce.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Mango Lassi",
+        "ingredients": [
+          "Ripe mangoes",
+          "Yogurt",
+          "Milk",
+          "Sugar",
+          "Cardamom"
+        ],
+        "cookingMethod": "Blend mangoes, yogurt, milk, sugar, and cardamom until smooth and frothy.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "chefName": "Chef William Wu",
+    "yearsOfExperience": 18,
+    "numberOfRecipes": 7,
+    "likes": 9000,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "bio": "Chef William Wu, with 18 years of culinary excellence, has crafted 7 exquisite recipes that have garnered 9000 likes.",
+    "recipes": [
+      {
+        "recipeName": "Sushi Rolls",
+        "ingredients": [
+          "Sushi rice",
+          "Nori seaweed sheets",
+          "Fresh fish (salmon, tuna)",
+          "Avocado",
+          "Cucumber"
+        ],
+        "cookingMethod": "Prepare sushi rice, spread on nori, add fish, avocado, and cucumber, roll, and slice.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Beef Teriyaki",
+        "ingredients": [
+          "Thinly sliced beef",
+          "Teriyaki sauce",
+          "Broccoli",
+          "Sesame seeds",
+          "Steamed rice"
+        ],
+        "cookingMethod": "Stir-fry beef and broccoli in teriyaki sauce, serve over steamed rice, garnish with sesame seeds.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Miso Soup",
+        "ingredients": [
+          "Dashi stock",
+          "Miso paste",
+          "Tofu",
+          "Seaweed (wakame)",
+          "Green onions"
+        ],
+        "cookingMethod": "Heat dashi, dissolve miso, add tofu and seaweed, simmer, garnish with green onions.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "chefName": "Chef Olivia Taylor",
+    "yearsOfExperience": 9,
+    "numberOfRecipes": 6,
+    "likes": 5200,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "bio": "Chef Olivia Taylor, with 9 years in the kitchen, is known for her 6 delectable recipes, which have earned her 5200 likes.",
+    "recipes": [
+      {
+        "recipeName": "Creamy Spinach Artichoke Dip",
+        "ingredients": [
+          "Frozen chopped spinach",
+          "Canned artichoke hearts",
+          "Cream cheese",
+          "Sour cream",
+          "Parmesan cheese"
+        ],
+        "cookingMethod": "Mix spinach, artichokes, cream cheese, sour cream, and Parmesan. Bake until bubbly.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Lemon Garlic Roasted Asparagus",
+        "ingredients": [
+          "Fresh asparagus spears",
+          "Lemon zest",
+          "Garlic cloves, minced",
+          "Olive oil",
+          "Salt and pepper"
+        ],
+        "cookingMethod": "Toss asparagus with lemon zest, garlic, olive oil, salt, and pepper. Roast until tender.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Blueberry Pancakes",
+        "ingredients": [
+          "All-purpose flour",
+          "Blueberries",
+          "Eggs",
+          "Milk",
+          "Maple syrup"
+        ],
+        "cookingMethod": "Mix flour, eggs, and milk, fold in blueberries, cook pancakes until golden. Serve with maple syrup.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "chefName": "Chef Robert Rodriguez",
+    "yearsOfExperience": 22,
+    "numberOfRecipes": 9,
+    "likes": 12000,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "bio": "Chef Robert Rodriguez, a culinary veteran with 22 years of experience, has crafted 9 masterful recipes, celebrated by 12,000 food enthusiasts.",
+    "recipes": [
+      {
+        "recipeName": "Grilled Ribeye Steak",
+        "ingredients": [
+          "Ribeye steaks",
+          "Salt and pepper",
+          "Olive oil",
+          "Garlic cloves",
+          "Fresh rosemary sprigs"
+        ],
+        "cookingMethod": "Season steaks with salt, pepper, and olive oil. Grill with garlic and rosemary for perfect flavor.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Creamy Lobster Alfredo",
+        "ingredients": [
+          "Lobster tails",
+          "Fettuccine pasta",
+          "Heavy cream",
+          "Parmesan cheese",
+          "Butter"
+        ],
+        "cookingMethod": "Cook pasta, sauté lobster in butter, add cream and Parmesan. Toss with pasta for a luxurious dish.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Tres Leches Cake",
+        "ingredients": [
+          "Yellow cake mix",
+          "Evaporated milk",
+          "Sweetened condensed milk",
+          "Heavy cream",
+          "Vanilla extract"
+        ],
+        "cookingMethod": "Bake the cake, pierce with holes, pour milk mixture, and refrigerate for a moist and delicious dessert.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "chefName": "Chef Jessica White",
+    "yearsOfExperience": 11,
+    "numberOfRecipes": 5,
+    "likes": 6800,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "bio": "Chef Jessica White, with 11 years of culinary expertise, has 5 delightful recipes to her name, appreciated by 6800 likes.",
+    "recipes": [
+      {
+        "recipeName": "Baked Ziti",
+        "ingredients": [
+          "Ziti pasta",
+          "Tomato sauce",
+          "Mozzarella cheese",
+          "Ricotta cheese",
+          "Ground beef"
+        ],
+        "cookingMethod": "Cook pasta, brown beef, layer with sauce and cheeses, bake until bubbly and golden.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Caesar Salad",
+        "ingredients": [
+          "Romaine lettuce",
+          "Croutons",
+          "Parmesan cheese",
+          "Caesar dressing",
+          "Anchovies (optional)"
+        ],
+        "cookingMethod": "Toss lettuce with croutons, Parmesan, and dressing. Add anchovies for extra flavor if desired.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Mojito Cocktail",
+        "ingredients": [
+          "White rum",
+          "Fresh lime juice",
+          "Mint leaves",
+          "Simple syrup",
+          "Club soda"
+        ],
+        "cookingMethod": "Muddle mint and lime juice, add rum and simple syrup. Top with club soda and ice.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "chefName": "Chef Daniel Liu",
+    "yearsOfExperience": 16,
+    "numberOfRecipes": 7,
+    "likes": 8200,
+    "chefPicture": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "bio": "Chef Daniel Liu, with 16 years of experience, has crafted 7 delectable recipes that have garnered 8200 likes.",
+    "recipes": [
+      {
+        "recipeName": "Beef and Broccoli Stir-Fry",
+        "ingredients": [
+          "Flank steak",
+          "Broccoli florets",
+          "Soy sauce",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Slice beef, stir-fry with ginger and garlic, add broccoli and soy sauce, cook until tender.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Roasted Butternut Squash Soup",
+        "ingredients": [
+          "Butternut squash",
+          "Onion",
+          "Vegetable broth",
+          "Heavy cream",
+          "Nutmeg"
+        ],
+        "cookingMethod": "Roast squash and onion, blend with broth and cream, season with nutmeg, and simmer.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Chocolate Fondue",
+        "ingredients": [
+          "Dark chocolate",
+          "Heavy cream",
+          "Strawberries",
+          "Banana slices",
+          "Marshmallows"
+        ],
+        "cookingMethod": "Melt chocolate with cream, serve with fruit and marshmallows for dipping.",
+        "rating": 4.6
+      }
+    ]
+  }
+]
